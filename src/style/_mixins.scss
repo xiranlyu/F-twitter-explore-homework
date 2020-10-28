@@ -2,3 +2,9 @@
   margin-top: 0;
   font-size: $font-size;
 }
+
+@mixin button($font-color, $background-color, $margin-top) {
+  color: $font-color;
+  background: $background-color;
+  margin-top: $margin-top;
+}

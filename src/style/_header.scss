@@ -1,0 +1,23 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: $gray 1px solid;
+  padding: 0.5% 2% 0.5% 2%;
+}
+
+nav {
+  .btn-login {
+    border-radius: 20px;
+    border: $primary-color 1px solid;
+    width: 80px;
+    background: $body-bg;
+    color: $primary-color;
+    font-size: 14px;
+  }
+  .btn-register {
+    @extend .btn-login;
+    color: white;
+    background: $primary-color;
+  }
+}
